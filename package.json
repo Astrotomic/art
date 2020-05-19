@@ -6,5 +6,8 @@
     "eleventy": "^1.0",
     "js-yaml": "^3.13",
     "nunjucks": "^3.2"
+  },
+  "scripts": {
+    "build": "eleventy"
   }
 }
