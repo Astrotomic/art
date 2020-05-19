@@ -25,17 +25,17 @@ moonlight:
     k: 66%
 
 night:
-  pantone: 'Black 6 C'
-  hex: '#020C14'
+  pantone: '296 C'
+  hex: '#001425'
   rgb:
-    r: 2
-    g: 12
-    b: 20
+    r: 0
+    g: 20
+    b: 37
   cmyk:
     c: 100%
-    m: 61%
-    y: 32%
-    k: 96%
+    m: 46%
+    y: 0%
+    k: 89%
 
 treeware:
   pantone: '7740 C'
