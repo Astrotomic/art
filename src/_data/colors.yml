@@ -1,10 +1,10 @@
 astrotomic:
   pantone: '2088 C'
-  hex: '#825DC7'
+  hex: '#7E59C5'
   rgb:
-    r: 130
-    g: 93
-    b: 199
+    r: 126
+    g: 89
+    b: 197
   cmyk:
     c: 61%
     m: 69%
@@ -13,11 +13,11 @@ astrotomic:
 
 moonlight:
   pantone: '2768 C'
-  hex: '#071D49'
+  hex: '#001543'
   rgb:
-    r: 7
-    g: 29
-    b: 73
+    r: 0
+    g: 21
+    b: 67
   cmyk:
     c: 100%
     m: 78%
@@ -26,11 +26,11 @@ moonlight:
 
 night:
   pantone: 'Black 6 C'
-  hex: '#101820'
+  hex: '#020C14'
   rgb:
-    r: 16
-    g: 24
-    b: 32
+    r: 2
+    g: 12
+    b: 20
   cmyk:
     c: 100%
     m: 61%
@@ -39,11 +39,11 @@ night:
 
 treeware:
   pantone: '7740 C'
-  hex: '#3A913F'
+  hex: '#318D3A'
   rgb:
-    r: 58
-    g: 145
-    b: 63
+    r: 49
+    g: 141
+    b: 58
   cmyk:
     c: 73%
     m: 1%

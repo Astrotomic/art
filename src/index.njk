@@ -27,23 +27,29 @@ layout: base
     <div class="grid gap-4 grid-cols-1">
         {% for name, color in colors %}
             <div style="background-color:{{ color.hex }};" class="flex text-white">
-                <div class="flex-grow p-8 my-auto">
+                <div class="flex-grow py-8 px-12 my-auto">
                     <h3 class="text-2xl font-bold uppercase tracking-wide leading-none">{{ name }}</h3>
                     <p class="align-middle">
                         <span>PMS {{ color.pantone }}</span>
-                        <a href="https://encycolorpedia.de/{{ color.hex|replace('#', '') }}" target="_blank" class="text-xs opacity-50 hover:opacity-100">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
                     </p>
-                    <p class="text-xs opacity-50">
-                        <code>{{ color.hex }}</code>
-                        ·
+                    <p class="text-xs opacity-50 font-mono">
+                        <i class="fas fa-desktop w-4 text-center"></i>
+                        <code>
+                            {{ color.hex}}
+                        </code>
+                        &middot;
                         <code>
                             rgb({{ color.rgb.r }}, {{ color.rgb.g }}, {{ color.rgb.b }})
                         </code>
                     </p>
+                    <p class="text-xs opacity-50 font-mono">
+                        <i class="fas fa-print w-4 text-center"></i>
+                        <code>
+                            cmyk({{ color.cmyk.c }}, {{ color.cmyk.m }}, {{ color.cmyk.y }}, {{ color.cmyk.k }})
+                        </code>
+                    </p>
                 </div>
-                <div class="p-8 text-center border-l-2 border-r-2 border-white my-auto text-sm">
+                <div class="py-8 px-12 text-center border-l-2 border-r-2 border-white my-auto text-sm">
                     <strong class="text-base">RGB</strong>
                     <br/>
                     <code class="leading-none">{{ color.rgb.r }}</code>
@@ -52,7 +58,7 @@ layout: base
                     <br/>
                     <code class="leading-none">{{ color.rgb.b }}</code>
                 </div>
-                <div class="p-8 text-center my-auto text-sm">
+                <div class="py-8 px-12 text-center my-auto text-sm">
                     <strong class="text-base">CMYK</strong>
                     <br/>
                     <code class="leading-none">{{ color.cmyk.c }}</code>
