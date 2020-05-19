@@ -1,0 +1,51 @@
+astrotomic:
+  pantone: '2088 C'
+  hex: '#7E59C5'
+  rgb:
+    r: 126
+    g: 89
+    b: 197
+  cmyk:
+    c: 61%
+    m: 69%
+    y: 0%
+    k: 0%
+
+moonlight:
+  pantone: '2768 C'
+  hex: '#001543'
+  rgb:
+    r: 0
+    g: 21
+    b: 67
+  cmyk:
+    c: 100%
+    m: 78%
+    y: 0%
+    k: 66%
+
+night:
+  pantone: 'Black 6 C'
+  hex: '#020C14'
+  rgb:
+    r: 2
+    g: 12
+    b: 20
+  cmyk:
+    c: 100%
+    m: 61%
+    y: 32%
+    k: 96%
+
+treeware:
+  pantone: '7740 C'
+  hex: '#318D3A'
+  rgb:
+    r: 49
+    g: 141
+    b: 58
+  cmyk:
+    c: 73%
+    m: 1%
+    y: 91%
+    k: 17%

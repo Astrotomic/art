@@ -1,0 +1,69 @@
+---
+layout: base
+---
+
+<section id="fonts" class="my-4">
+    <h2 class="text-3xl mt-4 mb-2">Fonts</h2>
+
+    <div class="grid gap-4 grid-cols-1">
+        {% for name, weights in fonts %}
+            <h3 class="text-2xl font-bold uppercase tracking-wide leading-none mt-2">{{ name }}</h3>
+
+            {% for weight in weights %}
+                <div>
+                    <p style="font-family:'{{ name }}';font-weight:{{ weight }};">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    </p>
+                    <code class="text-xs opacity-50">{{ name }} {{ weight }}</code>
+                </div>
+            {% endfor %}
+        {% endfor %}
+    </div>
+</section>
+
+<section id="colors" class="my-4">
+    <h2 class="text-3xl mt-4 mb-2">Colors</h2>
+
+    <div class="grid gap-4 grid-cols-1">
+        {% for name, color in colors %}
+            <div style="background-color:{{ color.hex }};" class="flex text-white">
+                <div class="flex-grow p-8 my-auto">
+                    <h3 class="text-2xl font-bold uppercase tracking-wide leading-none">{{ name }}</h3>
+                    <p class="align-middle">
+                        <span>PMS {{ color.pantone }}</span>
+                        <a href="https://www.pantone.com/color-finder/{{ color.pantone|replace(' ', '-') }}" target="_blank" class="text-xs opacity-50 hover:opacity-100">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </p>
+                    <p class="text-xs opacity-50">
+                        <code>{{ color.hex }}</code>
+                        ·
+                        <code>
+                            rgb({{ color.rgb.r }}, {{ color.rgb.g }}, {{ color.rgb.b }})
+                        </code>
+                    </p>
+                </div>
+                <div class="p-8 text-center border-l-2 border-r-2 border-white my-auto text-sm">
+                    <strong class="text-base">RGB</strong>
+                    <br/>
+                    <code class="leading-none">{{ color.rgb.r }}</code>
+                    <br/>
+                    <code class="leading-none">{{ color.rgb.g }}</code>
+                    <br/>
+                    <code class="leading-none">{{ color.rgb.b }}</code>
+                </div>
+                <div class="p-8 text-center my-auto text-sm">
+                    <strong class="text-base">CMYK</strong>
+                    <br/>
+                    <code class="leading-none">{{ color.cmyk.c }}</code>
+                    <br/>
+                    <code class="leading-none">{{ color.cmyk.m }}</code>
+                    <br/>
+                    <code class="leading-none">{{ color.cmyk.y }}</code>
+                    <br/>
+                    <code class="leading-none">{{ color.cmyk.k }}</code>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

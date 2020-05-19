@@ -1,0 +1,18 @@
+---
+permalink: ../README.md
+---
+# Astrotomic Art
+
+## Fonts
+
+{% filter trim %}
+{% for name, weights in fonts %}{% for weight in weights %}
+- **{{ name }}** `{{ weight }}`{% endfor %}{% endfor %}
+{% endfilter %}
+
+## Colors
+
+{% filter trim %}
+{% for name, color in colors %}
+- **{{ name }}** ![{{ color.hex }}](https://via.placeholder.com/15/{{ color.hex|replace('#', '') }}/000000?text=+) `{{ color.hex }}`{% endfor %}
+{% endfilter %}
