@@ -8,7 +8,7 @@
 
 ## Colors
 
-- **astrotomic** ![#825DC7](https://via.placeholder.com/15/825DC7/000000?text=+) `#825DC7`
-- **moonlight** ![#071D49](https://via.placeholder.com/15/071D49/000000?text=+) `#071D49`
-- **night** ![#101820](https://via.placeholder.com/15/101820/000000?text=+) `#101820`
-- **treeware** ![#3A913F](https://via.placeholder.com/15/3A913F/000000?text=+) `#3A913F`
+- **astrotomic** ![#7E59C5](https://via.placeholder.com/15/7E59C5/000000?text=+) `#7E59C5`
+- **moonlight** ![#001543](https://via.placeholder.com/15/001543/000000?text=+) `#001543`
+- **night** ![#020C14](https://via.placeholder.com/15/020C14/000000?text=+) `#020C14`
+- **treeware** ![#318D3A](https://via.placeholder.com/15/318D3A/000000?text=+) `#318D3A`
