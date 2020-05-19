@@ -1,4 +1,4 @@
-# Astrotomic Art
+# Astrotomic Art & Styleguide
 
 ## Fonts
 
