@@ -37,6 +37,19 @@ night:
     y: 0%
     k: 89%
 
+mit:
+  pantone: '2125 C'
+  hex: '#5461C8'
+  rgb:
+    r: 84
+    g: 97
+    b: 200
+  cmyk:
+    c: 77%
+    m: 63%
+    y: 0%
+    k: 0%
+
 treeware:
   pantone: '7740 C'
   hex: '#318D3A'
@@ -49,3 +62,16 @@ treeware:
     m: 1%
     y: 91%
     k: 17%
+
+larabelles:
+  pantone: '2339 C'
+  hex: '#F09491'
+  rgb:
+    r: 240
+    g: 148
+    b: 145
+  cmyk:
+    c: 0%
+    m: 49%
+    y: 28%
+    k: 0%
