@@ -6,10 +6,10 @@ astrotomic:
     g: 89
     b: 197
   cmyk:
-    c: 61%
-    m: 69%
+    c: 36%
+    m: 55%
     y: 0%
-    k: 0%
+    k: 23%
 
 moonlight:
   pantone: '2768 C'
@@ -20,9 +20,9 @@ moonlight:
     b: 67
   cmyk:
     c: 100%
-    m: 78%
+    m: 69%
     y: 0%
-    k: 66%
+    k: 74%
 
 night:
   pantone: '296 C'
@@ -35,7 +35,7 @@ night:
     c: 100%
     m: 46%
     y: 0%
-    k: 89%
+    k: 85%
 
 mit:
   pantone: '2125 C'
@@ -45,10 +45,10 @@ mit:
     g: 97
     b: 200
   cmyk:
-    c: 77%
-    m: 63%
+    c: 58%
+    m: 52%
     y: 0%
-    k: 0%
+    k: 22%
 
 treeware:
   pantone: '7740 C'
@@ -58,10 +58,10 @@ treeware:
     g: 141
     b: 58
   cmyk:
-    c: 73%
-    m: 1%
-    y: 91%
-    k: 17%
+    c: 65%
+    m: 0%
+    y: 59%
+    k: 45%
 
 larabelles:
   pantone: '2339 C'
@@ -72,6 +72,6 @@ larabelles:
     b: 145
   cmyk:
     c: 0%
-    m: 49%
-    y: 28%
-    k: 0%
+    m: 38%
+    y: 40%
+    k: 6%
