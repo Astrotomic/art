@@ -8,7 +8,8 @@ module.exports = {
                 "mit": "#5461c8",
                 "treeware": "#3a913f",
                 "larabelles": "#f09491",
-                "sponsors": "#ffb549"
+                "sponsors": "#ffb549",
+                "opendor": "#f04e98"
             }
         }
     }

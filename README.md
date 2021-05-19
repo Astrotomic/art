@@ -15,3 +15,4 @@
 - **treeware** ![#3a913f](https://via.placeholder.com/15/3a913f/000000?text=+) `#3a913f`
 - **larabelles** ![#f09491](https://via.placeholder.com/15/f09491/000000?text=+) `#f09491`
 - **sponsors** ![#ffb549](https://via.placeholder.com/15/ffb549/000000?text=+) `#ffb549`
+- **opendor** ![#f04e98](https://via.placeholder.com/15/f04e98/000000?text=+) `#f04e98`
