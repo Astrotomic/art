@@ -31,43 +31,47 @@ layout: base
                     <h3 class="text-2xl font-bold uppercase tracking-wide leading-none">{{ name }}</h3>
                     <p class="align-middle">
                         <span>PMS {{ color.pantone }}</span>
+                        &middot;
+                        <a href="https://encycolorpedia.com/{{ color.hex | replace('#', '') }}" class="opacity-50 hover:opacity-100" target="_blank">
+                            <i class="fas fa-swatchbook w-4 text-center"></i>
+                        </a>
                     </p>
                     <p class="text-xs opacity-50 font-mono">
                         <i class="fas fa-desktop w-4 text-center"></i>
                         <code>
-                            {{ color.hex}}
+                            {{ color.hex }}
                         </code>
                         &middot;
                         <code>
-                            rgb({{ color.rgb.r }}, {{ color.rgb.g }}, {{ color.rgb.b }})
+                            rgb({{ color.rgb().r }}, {{ color.rgb().g }}, {{ color.rgb().b }})
                         </code>
                     </p>
                     <p class="text-xs opacity-50 font-mono">
                         <i class="fas fa-print w-4 text-center"></i>
                         <code>
-                            cmyk({{ color.cmyk.c }}, {{ color.cmyk.m }}, {{ color.cmyk.y }}, {{ color.cmyk.k }})
+                            cmyk({{ color.cmyk().c }}%, {{ color.cmyk().m }}%, {{ color.cmyk().y }}%, {{ color.cmyk().k }}%)
                         </code>
                     </p>
                 </div>
                 <div class="py-8 px-12 text-center border-l-2 border-r-2 border-white my-auto text-sm">
                     <strong class="text-base">RGB</strong>
                     <br/>
-                    <code class="leading-none">{{ color.rgb.r }}</code>
+                    <code class="leading-none">{{ color.rgb().r }}</code>
                     <br/>
-                    <code class="leading-none">{{ color.rgb.g }}</code>
+                    <code class="leading-none">{{ color.rgb().g }}</code>
                     <br/>
-                    <code class="leading-none">{{ color.rgb.b }}</code>
+                    <code class="leading-none">{{ color.rgb().b }}</code>
                 </div>
                 <div class="py-8 px-12 text-center my-auto text-sm">
                     <strong class="text-base">CMYK</strong>
                     <br/>
-                    <code class="leading-none">{{ color.cmyk.c }}</code>
+                    <code class="leading-none">{{ color.cmyk().c }}%</code>
                     <br/>
-                    <code class="leading-none">{{ color.cmyk.m }}</code>
+                    <code class="leading-none">{{ color.cmyk().m }}%</code>
                     <br/>
-                    <code class="leading-none">{{ color.cmyk.y }}</code>
+                    <code class="leading-none">{{ color.cmyk().y }}%</code>
                     <br/>
-                    <code class="leading-none">{{ color.cmyk.k }}</code>
+                    <code class="leading-none">{{ color.cmyk().k }}%</code>
                 </div>
             </div>
         {% endfor %}
