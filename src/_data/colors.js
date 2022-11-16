@@ -82,7 +82,6 @@ module.exports = function () {
                 return cmyk(this.hex);
             },
         },
-
         opendor: {
             pantone: '212 C',
             hex: '#f04e98',
@@ -92,6 +91,16 @@ module.exports = function () {
             cmyk() {
                 return cmyk(this.hex);
             },
-        }
+        },
+        translatable: {
+            pantone: '2035 CP',
+            hex: '#dd3224',
+            rgb() {
+                return rgb(this.hex);
+            },
+            cmyk() {
+                return cmyk(this.hex);
+            },
+        },
     };
 };
