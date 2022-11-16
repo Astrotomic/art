@@ -14,5 +14,5 @@ permalink: ../README.md
 
 {% filter trim %}
 {% for name, color in colors %}
-- **{{ name }}** ![{{ color.hex }}](https://via.placeholder.com/15/{{ color.hex|replace('#', '') }}/000000?text=+) `{{ color.hex }}`{% endfor %}
+- **{{ name }}** ![{{ color.hex }}](https://via.placeholder.com/15/{{ color.hex|replace('#', '') }}/{{ color.hex|replace('#', '') }}.png) `{{ color.hex }}`{% endfor %}
 {% endfilter %}
