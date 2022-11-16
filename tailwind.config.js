@@ -9,7 +9,8 @@ module.exports = {
                 "treeware": "#3a913f",
                 "larabelles": "#f09491",
                 "sponsors": "#ffb549",
-                "opendor": "#f04e98"
+                "opendor": "#f04e98",
+                "translatable": "#dd3224"
             }
         }
     }
