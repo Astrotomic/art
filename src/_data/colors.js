@@ -102,5 +102,15 @@ module.exports = function () {
                 return cmyk(this.hex);
             },
         },
+        tmdb: {
+            pantone: '352 UP',
+            hex: '#97cc9f',
+            rgb() {
+                return rgb(this.hex);
+            },
+            cmyk() {
+                return cmyk(this.hex);
+            },
+        },
     };
 };
