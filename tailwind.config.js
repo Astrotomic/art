@@ -10,7 +10,8 @@ module.exports = {
                 "larabelles": "#f09491",
                 "sponsors": "#ffb549",
                 "opendor": "#f04e98",
-                "translatable": "#dd3224"
+                "translatable": "#dd3224",
+                "tmdb": "#97cc9f"
             }
         }
     }
