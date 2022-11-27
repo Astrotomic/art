@@ -112,5 +112,15 @@ module.exports = function () {
                 return cmyk(this.hex);
             },
         },
+        twemoji: {
+            pantone: '121 U',
+            hex: '#ffcc52',
+            rgb() {
+                return rgb(this.hex);
+            },
+            cmyk() {
+                return cmyk(this.hex);
+            },
+        },
     };
 };
