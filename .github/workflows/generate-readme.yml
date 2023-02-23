@@ -16,6 +16,6 @@ jobs:
       - name: build
         run: yarn run build
 
-      - uses: stefanzweifel/git-auto-commit-action@v4.0.0
+      - uses: stefanzweifel/git-auto-commit-action@v4.16.0
         with:
           commit_message: generate README
